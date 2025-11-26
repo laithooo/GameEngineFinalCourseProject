@@ -7,12 +7,12 @@ public class EnemySpawner : MonoBehaviour
 
     public GameObject[] enemy;
     public Transform SpawnPoint;
-    public float SpawnInterval = 40f;
+    public float SpawnInterval = 10f;
 
     // Start is called before the first frame update
     void Start()
     {
-        InvokeRepeating("SpawnHere", 0f, SpawnInterval );
+        InvokeRepeating("SpawnHere", 2f, SpawnInterval );
     }
 
     // Update is called once per frame
@@ -24,6 +24,6 @@ public class EnemySpawner : MonoBehaviour
     void SpawnHere()
     {
         GameObject Goblin = enemy[0];
-        GameObject EnemyGoblin = Instantiate(Goblin, SpawnPoint.position, Random.rotation); 
+        GameObject EnemyGoblin = Instantiate(Goblin, SpawnPoint.position, SpawnPoint.rotation); 
     }
 }
