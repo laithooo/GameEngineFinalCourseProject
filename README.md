@@ -15,7 +15,7 @@ Majority of the code was coded using tips and similar concepts from lectures 9.6
 
 For the IHealthObserver & PlayerHealth & HealthUI & HealthManager files:
 
-I've gotten the base codes from the week 9 in class activity, but they've all been heavily modified to fit this scene because week 9's game was a very basic game where health gets changed whenever car collides with any gameobject. But this new updated and modified code allows the player to only take 20 damage from each goblin hit but keeping the original logic where if they fall into a pit the player instantly dies.
+I've gotten the base codes from codes I've written for the week 9 in class activity, but they've all been heavily modified to fit this scene because week 9's game was a very basic game where health gets changed whenever car collides with any gameobject. But this new updated and modified code allows the player to only take 20 damage from each goblin hit but keeping the original logic where if they fall into a pit the player instantly dies.
 
 <img width="442" height="209" alt="image" src="https://github.com/user-attachments/assets/d9970600-ee5f-42a8-ba7b-c2a6e1d3768d" /> <img width="387" height="190" alt="image" src="https://github.com/user-attachments/assets/2c59557d-7e19-43e6-bb67-23d451fb76ae" />
 
