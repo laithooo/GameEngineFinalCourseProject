@@ -3216,6 +3216,51 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 9.038737, y: 8.040923, z: 1.4720439}
   m_Center: {x: -2.4314482, y: -1.5171914, z: -2.661517}
+--- !u!1 &683284948
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 683284950}
+  - component: {fileID: 683284949}
+  m_Layer: 0
+  m_Name: ObjectPoolingGoblins
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &683284949
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 683284948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93d44434a61da83419142d4ce2dcc69b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 1306130739}
+--- !u!4 &683284950
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 683284948}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 19.993034, y: -31.661358, z: -1.6960163}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &687394780
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5615,6 +5660,7 @@ MonoBehaviour:
   - {fileID: 1306130739}
   SpawnPoint: {fileID: 1064885935}
   SpawnInterval: 10
+  goblinPool: {fileID: 683284949}
 --- !u!4 &1066547131 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7611207254762736451, guid: dd057b69bb9b25e468854341f1abb5a6, type: 3}
@@ -6855,8 +6901,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2.136388, y: 4.5870953, z: 1.2961738}
-  m_Center: {x: 0.0036496304, y: 1.7935479, z: -0.0048380033}
+  m_Size: {x: 3.4374328, y: 4.1691117, z: 2.2434576}
+  m_Center: {x: -0.1221265, y: 2.0025396, z: -0.013751406}
 --- !u!4 &1314417701 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7611207254762736451, guid: dd057b69bb9b25e468854341f1abb5a6, type: 3}
@@ -6895,6 +6941,7 @@ MonoBehaviour:
   - {fileID: 1306130739}
   SpawnPoint: {fileID: 1317186661}
   SpawnInterval: 30
+  goblinPool: {fileID: 683284949}
 --- !u!4 &1317186661
 Transform:
   m_ObjectHideFlags: 0
@@ -10830,3 +10877,4 @@ SceneRoots:
   - {fileID: 252533865}
   - {fileID: 2017191546}
   - {fileID: 1155320746}
+  - {fileID: 683284950}
