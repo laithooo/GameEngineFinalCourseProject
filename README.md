@@ -1,5 +1,5 @@
 # GameEngineFinalCourseProject
-Link to YouTube video report/live demo:
+Link to YouTube video report/live demo: https://youtu.be/el0yss6_7bA
 
 Laith Ghannam 100895645 for INFR 3110U - Game Engine Design & Implementation
 
