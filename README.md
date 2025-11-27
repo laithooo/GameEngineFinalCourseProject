@@ -2,7 +2,7 @@
 Link to YouTube video report/live demo: https://youtu.be/el0yss6_7bA
 
 Laith Ghannam 100895645 for INFR 3110U - Game Engine Design & Implementation
-
+IMPORTANT Click on sample scene to load the actual game scene if you wish not to display win/lose screens
 Expanded the previous game created for Course Project Progression (https://github.com/laithooo/CourseProjectProgressionGameEngine) to improve previous implemented design patterns and added optimization design patterns
 
 Improvement of factory design pattern code was by me using minor tweaks, removing extra spawns, and by changing prefabs scale.
